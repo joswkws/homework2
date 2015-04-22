@@ -1,0 +1,256 @@
+/*backgorund*/
+body {   
+    background-image:url(../images/bg_html.jpg);
+     } 
+
+/*container center*/        
+html, body {   
+margin: 0;
+text-align: center;
+}
+
+/*container center*/
+#container {
+position: relative;
+margin: 0 auto;
+width: 760px;
+text-align: left;
+margin-top: 25px;
+}
+
+.header{
+padding-left: 10px;
+}
+/*Logo img*/
+.Logo {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(../images/logo.png) no-repeat;
+  width: 171px; 
+  height: 81px; 
+  padding-left: 180px;
+  float:left;
+  display:block;
+}
+
+/*facebook icon*/
+.facebook-icon {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(../images/dot_facebook.png) no-repeat;
+  width: 21px; 
+  height: 21px; 
+  padding-left: 40px;
+  float:right;
+  display:block;
+}
+
+/*tweet icon*/
+.tweet-icon {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(../images/dot_tweet.png) no-repeat;
+  width: 21px; 
+  height: 21px; 
+  padding-left: 30px;
+  float:right;
+  display:block;
+}
+
+.menu {
+  margin-right: 20px;
+  padding-top: 40px;
+}
+.menu ul{
+  list-style: none; 
+}
+.menu li{
+  float: right;
+  padding-left: 20px;
+}
+.menu li a:hover{
+color:rgb(0,204,255);
+}
+em{
+ color:#01a5ca;
+ font-style: normal;
+}
+a{
+ text-decoration: none;
+ color: rgb(64,64,64);
+}
+.banner{
+margin-top: 65px;
+height: 332px;
+background-color: #292929;
+}
+.summary{
+margin-top: 25px;
+background-color: white;
+border-style:solid;
+border-width:1px;
+border-color:#EAEAEA;
+padding-top:20px;
+padding-bottom:20px;
+padding-left:40px;
+padding-right:20px;
+}
+
+.summary p {
+line-height: 24px;
+font-size: 13px;
+}
+
+.content{
+margin-top: 25px;
+height: 415px;
+background-color: white;
+padding-top:10px;
+padding-bottom:20px;
+padding-left:40px;
+padding-right:20px;
+}
+
+.footer{
+margin-top: 25px;
+margin-bottom: 25px;
+height: 40px;
+}
+
+.footer{
+text-align:center;
+font-size: 12px;
+}
+
+.latest{
+float: left;
+}
+.list{
+float: right;
+}
+.list h2{
+font-weight: normal;
+}
+.latest h2{
+font-weight: normal;
+}
+.list ul{
+margin-top: -15px;
+padding-left: 10px;
+line-height: 24px;
+}
+.list li{
+font-size: 12px;
+}
+.pic {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(../images/slider-1.png) no-repeat;
+  width: 512px; 
+  height: 332px; 
+  padding-left: 512px;
+  float:left;
+  display:block;
+}
+.text h2{
+font-size: 32px;
+}
+.text{
+float: right;
+width: 225px;
+padding-left: 20px;
+padding-top: 10px;
+}
+.text p{
+font-size: 16px;
+color: rgb(121,121,121);
+}
+#latest1{
+height: 185px;
+}
+#latest2{
+height: 185px;
+}
+.latest1_img{
+-moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(../images/page1-img1.jpg) no-repeat;
+  width: 185px; 
+  height: 140px; 
+  padding-left: 180px;
+  float:left;
+  display:block;
+}
+
+.latest2_img{
+-moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(../images/page1-img2.jpg) no-repeat;
+  width: 185px; 
+  height: 140px; 
+  padding-left: 180px;
+  float:left;
+  display:block;
+}
+#latest1 p{
+float: right;
+font-size: 12px;
+margin-top: 0px;
+padding-left: 20px;
+line-height:1.6;
+}
+#latest2 p{
+float: right;
+font-size: 12px;
+margin-top: 0px;
+padding-right: 5px;
+line-height:1.6;
+}
+.text a { 
+text-decoration : none; 
+color:#ffffff;  
+height: 20px; 
+width: 130px; 
+font-size: 11px;
+padding-top: 13px; 
+padding-right: 13px; 
+padding-bottom: 13px; 
+padding-left: 13px ;
+background-color:rgb(82,82,82); 
+filter: Blur(Add=1, Direction=45, Strength=2) ; 
+text-align: center 
+}
+.text a:hover{ 
+text-decoration : none; 
+color:rgb(130,130,130); 
+height: 20px; 
+width: 130px;
+font-size: 11px; 
+padding-top: 13px; 
+padding-right: 13px; 
+padding-bottom: 13px; 
+padding-left: 13px ;
+background-color:rgb(82,82,82);s 
+filter: Blur(Add=1, Direction=45, Strength=1) ; 
+text-align: center 
+}
+.button{
+  word-spacing: -5px;
+  color: #01a5ca;
+  background-color: #EEE;
+  width: 100px;
+  border-color: #EEE;
+  font-weight: 300;
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+  padding: 0 40px;
+  margin: 0;
+  display: inline-block;
+  appearance: none;
+  cursor: pointer;
+  border: none;
+ }
